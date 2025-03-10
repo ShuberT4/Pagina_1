@@ -1,0 +1,112 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    
+}
+
+
+
+header{
+    background-color: rgb(51, 51, 51);
+    color: #fffefe;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.introducción{
+    /*background-color: #c28e8e;*/
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    padding: auto;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+    
+}
+.Noticias_tabla table{
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    
+}
+.Noticias_tabla th, .Noticas_tabla td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+   
+}
+.Noticias_tabla tr:hover {
+    background-color: #f4f4f4;
+}
+tbody tr {
+    background-color: #f9f9f9; 
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+tbody tr:hover {
+    background-color: #d3e3fc;
+    transform: scale(1.02); 
+}
+.taejeta-contenedor{
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px;
+    padding: 20px;
+  }
+.Tarjetas{
+    border: 1px solid #c41616;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 600px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+.Tarjeta{
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 600px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.Tarjeta img{
+    width: 100%;
+    height: auto;
+    height: 300px;
+    object-fit: cover;
+}
+.Tarjeta p{
+    padding: 10px;
+}
+.Tarjeta:hover{
+    transform: scale(1.05);
+    transform: all 0.3s ease;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
