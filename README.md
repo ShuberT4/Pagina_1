@@ -16,4 +16,4 @@ Con las tarjetas también les agregue un hover, padding, width que a este lo ten
 
 Lo aprendido fue con la etiqueta section, no sabia que se podia usar de esa forma, me explico como si se creara un conjunto y sub-conjuntos que ayuden a mejorar el código, lo sue al buscar arreglar ciertos problemas con el css que no tomaba bien los cambios, también recalcar los "link" de las tablas que tube que crear id a cada tarjeta para que se vincularan.
 
-Eso seria todo por mi parte gracias. 
+Eso seria todo por mi parte, otra cosa es que el repositorio lo tengo como master, gracias. 
